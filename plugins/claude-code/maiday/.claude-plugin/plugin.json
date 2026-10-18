@@ -1,0 +1,17 @@
+{
+  "name": "maiday",
+  "version": "0.1.0",
+  "description": "Tell website owners where AI agents get stuck (privacy-safe reports) and read their hints.",
+  "author": {
+    "name": "Maiday"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/35furkan/maiday-plugins",
+  "repository": "https://github.com/35furkan/maiday-plugins",
+  "keywords": [
+    "maiday",
+    "browser",
+    "agents",
+    "mcp"
+  ]
+}

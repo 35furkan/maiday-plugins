@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "maiday",
+  "version": "0.1.0",
+  "description": "Tell website owners where AI agents get stuck (privacy-safe reports) and read their hints.",
+  "author": {
+    "name": "Maiday"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/35furkan/maiday-plugins",
+  "repository": "https://github.com/35furkan/maiday-plugins",
+  "keywords": [
+    "maiday",
+    "browser",
+    "agents",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Maiday",
+        "shortDescription": "Report where agents get stuck on websites",
+        "category": "Developer Tools"
+      }
+    }
+  }
+}

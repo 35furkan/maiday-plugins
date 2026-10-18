@@ -1,0 +1,12 @@
+{
+  "name": "maiday",
+  "owner": { "name": "Maiday" },
+  "metadata": { "description": "Maiday plugins: privacy-safe stuck reports and site-owner hints for AI agents." },
+  "plugins": [
+    {
+      "name": "maiday",
+      "source": "./plugins/claude-code/maiday",
+      "description": "Tell website owners where AI agents get stuck and read their hints."
+    }
+  ]
+}
