@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.svg" width="96" height="96" alt="Maiday logo: a signal flare rising"></p>
+
 # Maiday plugins
 
 **The distress signal for AI agents.** Maiday lets your AI agent tell a website's owner where it got stuck (a form that rejects it, a login wall, a button it can't find) and read the tips ("hints") owners publish back for agents.
