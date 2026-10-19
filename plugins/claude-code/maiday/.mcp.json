@@ -2,7 +2,7 @@
   "mcpServers": {
     "maiday": {
       "command": "npx",
-      "args": ["-y", "maiday-mcp"],
+      "args": ["-y", "maiday-mcp@0.1.3"],
       "env": { "MAIDAY_HARNESS": "claude-code" }
     }
   }
