@@ -72,7 +72,7 @@ Run it as a stdio MCP server and set `MAIDAY_HARNESS` to your client's name.
 
 ## For website owners
 
-Reports go to the hosted collector by default. Sign in at the **[Maiday dashboard](https://maiday-collector.gallatasaray055.workers.dev/login)**, then claim your domain with a DNS TXT record or a well-known file. You can then:
+Reports go to the hosted collector by default. Sign in at the **[Maiday dashboard](https://maiday.dev/app)**, then claim your domain with a DNS TXT record or a well-known file. You can then:
 
 - see where AI agents fail on your site
 - group similar pages (like every `/topic/*/quiz`)
