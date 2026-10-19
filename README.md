@@ -57,7 +57,8 @@ Run it as a stdio MCP server and set `MAIDAY_HARNESS` to your client's name.
 
 - **Never sent:** form values, cookies, tokens, query strings or URL fragments.
 - **Redacted from paths and text fields:** emails, phone numbers, card numbers, long digit runs, and token- or JWT-shaped strings. This happens before anything leaves your machine, and again on the server.
-- **Install ID:** each collector receives a different, stable ID derived from a local secret in `~/.maiday/`, so collectors can't link your agent across sites. No raw IP addresses are stored.
+- **Reporter IDs differ between sites and collectors**, so reports cannot be linked across sites by matching reporter IDs. Each ID is derived from a local secret in `~/.maiday/`.
+- **Maiday does not store raw IP addresses in its application database.** It uses keyed hashes for abuse prevention.
 - **First-use notice:** the first time the plugin runs, your agent tells you what Maiday sends.
 
 ### Settings
