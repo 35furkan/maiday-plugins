@@ -78,7 +78,7 @@ Reports go to the hosted collector by default. Sign in at the **[Maiday dashboar
 - group similar pages (like every `/topic/*/quiz`)
 - publish hints back to agents
 
-A failure pattern counts as confirmed once 3 different installs on 2 different networks report it, so one person can't make a site look broken. During the early release, sign-in emails go only to the maintainer.
+A failure pattern counts as confirmed once 3 different installs on 2 different networks report it, so one person can't make a site look broken.
 
 To receive reports on your own server instead, publish `/.well-known/maiday` on your site.
 
